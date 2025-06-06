@@ -6,18 +6,25 @@ from rich.tree import Tree
 
 console = Console(record=True, width=100)
 
-tree = Tree("🤓 [link=https://www.willmcgugan.com]Will McGugan", guide_style="bold cyan")
-python_tree = tree.add("🐍 Python expert", guide_style="green")
-python_tree.add("⭐ [link=https://github.com/willmcgugan/rich]Rich")
-python_tree.add("⭐ [link=https://github.com/pyfilesystem/pyfilesystem2]PyFilesystem")
-python_tree.add("⭐ [link=https://github.com/wildfoundry/dataplicity-lomond]Lomond")
-full_stack_tree = tree.add("🔧 Full-stack developer")
-tree.add("📘 Author")
+tree = Tree("🚴 [link=https://github.com/KuRRe8]KuRRe8", guide_style="bold cyan")
+python_tree = tree.add("🐍 Python Proficient ", guide_style="green")
+python_tree.add("🌟 ML/ DL")
+python_tree.add("🌟 ROS2")
+python_tree.add("🌟 PyQt")
+cpp_tree = tree.add("➕ C/C++ Intermediate ", guide_style="green")
+cpp_tree.add("⭐ Embedded")
+cpp_tree.add("⭐ Qt/ MFC/ Win")
+cpp_tree.add("⭐ Driver")
+csharp_tree = tree.add("#️⃣ C# Intermediate ", guide_style="green")
+matlab_tree = tree.add("📊 Matlab Intermediate ", guide_style="green")
+js_tree = tree.add("🟨 JS Novice ", guide_style="green")
 
 about = """\
-I'm a freelance software developer, living in [link=https://www.google.com/maps/place/Edinburgh/@55.9411289,-3.3454205,11z]Edinburgh[/], Scotland. Other than open source software development, my passion would be [link=https://www.willmcgugan.com/blog/photography/]wildlife photography[/].
+I am a developer from China, focusing on CV and Robotics. I have years of coding experience, and good ability to operate hardware, since I originally worked as an embedded software engineer.
 
-[green]Follow me on twitter [bold link=https://twitter.com/willmcgugan]@willmcgugan[/]"""
+Glad to participate in any interesting deep learning work.
+
+In addition to the Github main repository, I have also posted a lot of interesting content on [link=https://gist.github.com/KuRRe8]Github Gist[/link]. Welcome to take a look."""
 
 panel = Panel.fit(
     about, box=box.DOUBLE, border_style="blue", title="[b]Hi there", width=60
