@@ -20,7 +20,7 @@ matlab_tree = tree.add("📊 Matlab Intermediate ", guide_style="green")
 js_tree = tree.add("🟨 JS Novice ", guide_style="green")
 
 about = """\
-I am a developer from China, focusing on CV and Robotics. I have years of coding experience, and good ability to operate hardware, since I originally worked as an embedded software engineer.
+I am a developer from China, focusing on native APPs and Robotics. I have years of coding experience, and good ability to operate hardware, since I originally worked as an embedded software engineer.
 
 Glad to participate in any interesting deep learning work.
 
